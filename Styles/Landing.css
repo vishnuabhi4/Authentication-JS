@@ -1,4 +1,26 @@
-.body{
-    background-color: aquamarine;
-    color: blue;
+/* Add your CSS styling here */
+.login-container {
+    text-align: center;
+    margin-top: 100px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.login-options {
+    margin-top: 20px;
+}
+
+.login-options a {
+    text-decoration: none;
+    margin: 10px;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.login-options a:hover {
+    background-color: #0056b3;
 }
