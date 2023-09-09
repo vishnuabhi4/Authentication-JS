@@ -1,0 +1,53 @@
+/* Style the user login form container */
+#user-login {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  /* Style the user login form header */
+  #user-login h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Style the user login input fields */
+  #user-login input[type="text"],
+  #user-login input[type="password"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Style the user login submit button */
+  #user-login button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  #user-login button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style the user login error message */
+  #user-error {
+    color: red;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
