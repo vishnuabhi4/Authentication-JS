@@ -15,6 +15,13 @@
         
         <p class="error" id="user-error"></p>
     </form>
-    <button class="signup-button">Sign Up</button>
+    <button class="signup-button" onclick="redirectToSignupPage()">Sign Up</button>
 </body>
+<script>
+    function redirectToSignupPage() {
+  // Redirect the user to the signup page by setting the window.location.href
+  window.location.href = "../Pages/user-signup.html"; // Replace "signup.html" with the actual URL of your signup page
+}
+
+</script>
 </html>
