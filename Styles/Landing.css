@@ -3,12 +3,10 @@
     text-align: center;
     margin-top: 300px;
 }
-.login-container h1{
-    color: #fa2a2a;
-}
 
 h1 {
     font-size: 24px;
+    color: #fa2a2a;
 }
 
 .login-options {
