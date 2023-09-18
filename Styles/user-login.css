@@ -1,5 +1,5 @@
 /* Style the user login form container */
-#user-login {
+#login-form {
     width: 300px;
     margin: 0 auto;
     padding: 20px;
@@ -11,15 +11,15 @@
   }
   
   /* Style the user login form header */
-  #user-login h2 {
+  #login-form h2 {
     font-size: 24px;
     margin-bottom: 20px;
     color: #333;
   }
   
   /* Style the user login input fields */
-  #user-login input[type="text"],
-  #user-login input[type="password"] {
+  #login-form input[type="text"],
+  #login-form input[type="password"] {
     width: 80%;
     padding: 10px;
     margin-bottom: 10px;
@@ -29,7 +29,7 @@
   }
   
   /* Style the user login submit button */
-  #user-login button[type="submit"] {
+  #login-form button[type="submit"] {
     width: 100%;
     padding: 10px;
     background-color: #007bff;
@@ -50,7 +50,7 @@
     cursor: pointer;
     font-size: 18px;
   }
-  #user-login button[type="submit"]:hover {
+  #login-form button[type="submit"]:hover {
     background-color: #0056b3;
   }
   
