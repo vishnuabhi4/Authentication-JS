@@ -6,6 +6,10 @@ const app = express();
 const port = 3000;
 const secretKey = 'your-secret-key'; // Replace with your actual secret key
 
+// parse application/x-www-form-urlencoded
+app.use(bodyParser.urlencoded({ extended: false }))
+
+
 app.use(bodyParser.json());
 
 // Simulated user database
